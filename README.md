@@ -1,0 +1,1 @@
+This is my first project in building AI agents and understanding MCP.
