@@ -25,7 +25,7 @@ async def main():
     )
  
  agent= create_agent(llm,tools)
- weather_response = await agent.ainvoke({"messages": "what is the weather in new york?"})
+ weather_response = await agent.ainvoke({"messages": "what is the weather in Washington?"})
  print("Weather Response: ",weather_response['messages'][-1].content)
 
 
